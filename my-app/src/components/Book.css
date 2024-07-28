@@ -1,0 +1,22 @@
+.places-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .place {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 3%;
+  }
+  
+  .place img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.head{
+    text-align: center;
+}
