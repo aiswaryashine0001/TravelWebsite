@@ -1,8 +1,8 @@
 // Home.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../assets/img2.jpg'; // Adjust the path if necessary
-import '../App.css'; // Adjust the path if necessary
+import logo from '../assets/img2.jpg'; 
+import '../App.css'; 
 import Page1 from './page1';
 import Page2 from './page2';
 import Page3 from './page3';
@@ -12,7 +12,7 @@ function Home() {
 
   const handleBookClick = () => {
     console.log('Book button clicked');
-    navigate('/book'); // Navigate to the /book page
+    navigate('/book'); 
   };
 
   return (
