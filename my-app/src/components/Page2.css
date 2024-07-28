@@ -1,0 +1,17 @@
+.page2{
+   display: flex;
+   justify-content:space-between; 
+   background-color: rgba(225, 215, 215, 0.847);
+}
+
+.ride{
+    width:50%;
+    height: auto;
+    margin: 5%;
+}
+
+.para{
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 1.3rem;
+}

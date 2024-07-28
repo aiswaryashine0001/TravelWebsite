@@ -1,0 +1,24 @@
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFD1DC;
+}
+
+.photo{
+    width: 30%;
+    height: auto;
+    margin: 5%;
+}
+
+.text1{
+    color: rgba(0, 0, 0, 0.859);
+    margin: 5%;
+}
+
+.text1 p{
+   font-size: 1.5rem;
+}
+
+.text1 h1{
+    font-size: 2rem;
+}
