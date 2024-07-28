@@ -1,0 +1,104 @@
+/* General reset and box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Budget tracker container */
+.budget-tracker {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+
+.budget-tracker h1,
+.budget-tracker h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.form button + button {
+    background-color: #ff4d4d; /* Different color for clear button */
+}
+
+.form button + button:hover {
+    background-color: #cc0000;
+}
+
+/* Transactions list styling */
+.transactions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .budget-tracker {
+        margin: 20px;
+        padding: 10px;
+        margin-top: 20%;
+    }
+
+    .form {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .form input,
+    .form button {
+        padding: 8px;
+    }
+
+    .transactions li {
+        padding: 5px 0;
+    }
+}

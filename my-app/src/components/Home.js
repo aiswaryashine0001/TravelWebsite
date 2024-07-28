@@ -7,6 +7,7 @@ import Page1 from './page1';
 import Page2 from './page2';
 import Page3 from './page3';
 
+
 function Home() {
   const navigate = useNavigate();
 
@@ -21,7 +22,7 @@ function Home() {
         <div className="overlay">
           <div className='flex'>
             <img src={logo} alt="Voyage Logo" className="logo" />
-            <h1>Voyage</h1>
+            <h1 className='me'>Voyage</h1>
           </div>
           <div className='text'>
             <h1>Time for your</h1>

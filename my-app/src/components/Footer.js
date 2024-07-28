@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
      </div>
       <div className="footer-bottom">
-        &copy; 2024 Voyage | Designed by Athira
+        &copy; 2024 Voyage | Designed by Athira & Aiswarya
       </div>
     </footer>
   );

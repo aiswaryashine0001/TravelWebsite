@@ -1,24 +1,57 @@
-.flex2{
+/* Flex container styling */
+.flex2 {
     display: flex;
     justify-content: space-between;
-    background-color:#FFD1DC;
+    background-color: #FFD1DC;
+    padding: 10px;
 }
 
-.photo{
+/* Image styling */
+.photo {
     width: 30%;
     height: auto;
     margin: 5%;
 }
 
-.text1{
+/* Text container styling */
+.text1 {
     color: rgba(0, 0, 0, 0.859);
     margin: 5%;
 }
 
-.text1 p{
-   font-size: 1.5rem;
+/* Paragraph styling within text1 */
+.text1 p {
+    font-size: 1.5rem;
 }
 
-.text1 h1{
+/* Heading styling within text1 */
+.text1 h1 {
     font-size: 2rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .flex2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .photo {
+        width: 90%; /* Increased width to make the image larger */
+        margin: 10px 0;
+    }
+
+    .text1 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text1 p {
+        font-size: 1.2rem;
+    }
+
+    .text1 h1 {
+        font-size: 1.5rem;
+    }
 }

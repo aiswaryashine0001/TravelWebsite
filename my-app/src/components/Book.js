@@ -6,6 +6,9 @@ import img3 from '../assets/img9.jpg';
 import img4 from '../assets/img10.jpg';
 import img5 from '../assets/img11.jpg';
 import img6 from '../assets/img12.jpg';
+import img7 from '../assets/img13.jpg';
+import img8 from '../assets/img14.jpg';
+
 
 function Book() {
   return (
@@ -29,7 +32,7 @@ function Book() {
             <p>Hill Palace is an archaeological museum and palace located in the Thrippunithura neighbourhood of Kochi, Kerala. It is the largest archeological museum in the state and was the imperial administrative office and official residence of the Cochin Maharaja.</p>
           </div>
           <div className="place">
-            <h3>Cherai Beach, Kochi, Ernakulum</h3>
+            <h3>Cherai Beach,<br/> Kochi, Ernakulum</h3>
             <a href="https://maps.app.goo.gl/j1EuPcboXTCPJ24G7" target="_blank" rel="noopener noreferrer">
               <img src={img3} alt="Place 3" />
             </a>
@@ -55,6 +58,20 @@ function Book() {
               <img src={img6} alt="Place 6" />
             </a>
             <p>Kerala Kalamandalam, a deemed-to-be-University of Art and Culture by the Government of India, is a major centre for learning Indian performing arts, especially those that developed in the country's southern states, with special emphasis on those from Kerala.</p>
+          </div> 
+          <div className="place">
+            <h3>Wayanad,<br/>Kerala</h3>
+            <a href="https://maps.app.goo.gl/2fVC3M17FsXFUc186" target="_blank" rel="noopener noreferrer">
+              <img src={img7} alt="Place 7" />
+            </a>
+            <p>It is the only plateau in Kerala. The Wayanad Plateau forms a continuation of the Mysore Plateau, the southern portion of Deccan Plateau. It is set high in the Western Ghats with altitudes ranging from 700 to 2,100 meters.</p>
+          </div> 
+          <div className="place">
+            <h3>Marari Beach,<br/>Alappuzha</h3>
+            <a href="https://maps.app.goo.gl/tG3NKUQA7jdCmU2J8" target="_blank" rel="noopener noreferrer">
+              <img src={img8} alt="Place 8" />
+            </a>
+            <p>Marari Beach, a secluded little known beach destination in the Alappuzha, is located about 11 km from Alappuzha town. The fisherfolk of Mararikulam and their gentle ways of life are some of the attractions here. An evening stroll is one of the best hangouts here.</p>
           </div> 
         </div>
       </section>

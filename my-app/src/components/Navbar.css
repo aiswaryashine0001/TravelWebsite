@@ -1,0 +1,65 @@
+/* Ensure there is no margin or padding on the body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.067); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    z-index: 1000; /* Ensures navbar is on top of other content */
+}
+
+/* Navbar list styling */
+.navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto; /* Ensure it is right-aligned */
+    margin-right: 5%;
+    margin-left: 65%;
+}
+
+/* Navbar item styling */
+.navbar-item {
+    padding: 10px 20px;
+}
+
+/* Navbar link styling */
+.navbar-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #007bff;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%; /* Reset margin */
+    }
+
+    .navbar-item {
+        padding: 10px 0;
+    }
+}
